@@ -63,7 +63,7 @@ alias rm="rm -l"                                                #
 #alias gitu='git add . && git commit && git push'
 alias lavoro="cd ~/Documenti/Lavoro"
 alias tirocinio="cd ~/Documenti/Universita/SecondoSemestre/Tirocinio"
-
+export PATH=/home/andrea/.cache/npm-global/lib:/home/andrea/.local/bin:$PATH
 # Theming section  
 autoload -U compinit colors zcalc
 compinit -d
