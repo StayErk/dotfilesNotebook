@@ -1,0 +1,4 @@
+#!/bin/sh
+
+magnet=$(./eztv.js)
+exec peerflix "$magnet" --vlc -- --fullscreen
