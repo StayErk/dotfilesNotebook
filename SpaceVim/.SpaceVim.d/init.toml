@@ -51,6 +51,9 @@ name = "lang#html"
 name = "lang#python"
 python_interpreter = "/usr/bin/python"
 
+[[layers]]
+name = "lang#r"
+repl_command="R --no-save"
 
 [[layers]]
 name = "lang#latex"

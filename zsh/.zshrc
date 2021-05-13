@@ -57,13 +57,13 @@ bindkey '^[[Z' undo                                             # Shift+tab undo
 
 ## Alias section 
 alias cp="cp -i"                                                # Confirm before overwriting something
-alias rm="rm -l"                                                # 
+alias rm="rm"                                                # 
 #alias df='df -h'                                                # Human-readable sizes
 #alias free='free -m'                                            # Show sizes in MB
 #alias gitu='git add . && git commit && git push'
 alias lavoro="cd ~/Documenti/Lavoro"
 alias tirocinio="cd ~/Documenti/Universita/SecondoSemestre/Tirocinio"
-export PATH=/home/andrea/.cache/npm-global/lib:/home/andrea/.local/bin:$PATH
+export PATH=/home/andrea/.cache/npm-global/bin:/home/andrea/.local/bin:$PATH
 # Theming section  
 autoload -U compinit colors zcalc
 compinit -d
