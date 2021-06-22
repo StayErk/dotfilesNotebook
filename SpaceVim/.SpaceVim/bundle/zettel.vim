@@ -4,7 +4,7 @@ func! Zettel(...)
 		if len(a:000) > 0
 				let l:sep = '-'
 		endif
-		let l:fname = expand('~/Documents/Universita/SecondoSemestre/Note') . strftime("%F-%H:%M") . l:sep . join(a:000, '-') . '.md'
+		let l:fname = expand('~/Documenti/Universita/SecondoSemestre/Note') . strftime("%F-%H:%M") . l:sep . join(a:000, '-') . '.md'
 
 		" Edit the file
 		exec "e " . l:fname

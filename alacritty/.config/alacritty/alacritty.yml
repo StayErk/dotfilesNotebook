@@ -90,11 +90,11 @@ shell:
   args:
     - --login
 # Enable clickable URLs
-mouse:
-  url:
-    launcher:
-      program: open
-    modifiers: Command
+#mouse:
+#  url:
+#    launcher:
+#      program: open
+#    modifiers: Command
 # Map the keys (British keyboard layout)
 #key_bindings:
 #  - { key: Key0, mods: Alt, chars: 'º' }
